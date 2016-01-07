@@ -1,0 +1,53 @@
+// Place all the styles related to the static_pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+body{
+	background-image: url("eight_horns.png");;
+	//margin: 0 15%;
+}
+.container{
+	margin: 10%;
+}
+.navbar-brand{
+	padding-left: 3%;
+	font-size: 2.5em;
+	font-family: Zapf Chancery, cursive, helvetica, sans-serif;
+	font-weight: bold;
+}
+//#ffff4d
+.navbar-inverse{
+	background-color: #ff944d;
+}
+.navbar-inverse .navbar-brand {
+    color: black;
+}
+.navbar-nav{
+	padding-right: 2%;
+}
+.navbar-inverse .navbar-nav>li>a {
+	font-size: 1.3em;
+    color: black;
+    font-weight: 500;
+} 
+.container h1{
+	color: #4985D6;
+}
+//***************** footer *******************
+footer{
+	position:absolute;
+   	bottom:0;
+   	width: 100%;
+}
+.ftr{
+	background-color: #4985D6;
+	text-align: center;
+	opacity: 0.6;
+}
+.ftr p{
+	color: white;
+
+}
+.ftr .row{
+	display: inline-block;
+	padding: 0 2%;
+}
