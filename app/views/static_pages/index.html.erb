@@ -1,2 +1,73 @@
-<h1>StaticPages#index</h1>
-<p>Find me in app/views/static_pages/index.html.erb</p>
+<div class="container-fluid">
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+        <ol class="carousel-indicators">
+          	<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+          	<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+          	<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+          	<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+          	<div class="item active">
+            	<%= image_tag("quilt1.jpg", class: "img-responsive my_image", width: "100%") %>
+            	<div class="carousel-caption">
+       				<h1>Quilt 1</h1>
+              		<p><strong>Quilt 1 work in work in progress</strong></p>
+            	</div> <!-- end carousel-capsion -->
+          	</div><!-- end item -->
+          	<div class="item">
+            	<%= image_tag("quilt2.jpg", class: "img-responsive my_image", width: "100%") %>
+            	<div class="carousel-caption">
+              		<h1>Quilt 1</h1>
+              		<p><strong>Quilt 1 work details</strong></p>
+            	</div><!-- end carousel-capsion -->
+          	</div>
+          	<div class="item">
+            	<%= image_tag("quilt21.jpg", class: "img-responsive my_image", width: "100%") %>
+            	<div class="carousel-caption">
+              		<h1>Quilt 2</h1>
+              		<p><p><strong>Quilt 2 work in progress</strong></p></p>
+            	</div><!-- end carousel-capsion -->
+          	</div><!-- end item -->
+          	<div class="item">
+            	<%= image_tag("quilt22.jpg", class: "img-responsive my_image", width: "100%") %>
+            	<div class="carousel-caption">
+              		<div class="carousel-caption">
+              		<h1>Shining star Quilt</h1>
+              		<p><p><strong>Quilt 2 completed</strong></p></p>
+            	</div><!-- end carousel-capsion -->
+          	</div><!-- end item -->
+        </div><!-- end corousel-inner -->
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+          	<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          	<span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+          	<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          	<span class="sr-only">Next</span>
+        </a>
+     </div><!-- end corousel-example-generic -->
+</div><!-- end container -->
+<!-- <div class="container-fluid">
+
+	<div class="image-container">
+		<%= image_tag("quilt2.jpg", class: "img-responsive my_image", width: "100%") %>
+	</div> <!-- end image-container -->
+</div>
+<div class="container row">
+	<div class="content col-lg-6 col-md-6 col-sm-6">
+		<h1>StaticPages#index</h1>
+		<p>Find me in app/views/static_pages/index.html.erb</p>			
+		<p>Welcome! The date and time is <%= Time.now %></p>
+	</div>
+	<div class="content col-lg-6 col-md-6 col-sm-6">
+		<h1>StaticPages#index</h1>
+		<p>Find me in app/views/static_pages/index.html.erb</p>			
+		<p>Welcome! The date and time is <%= Time.now %></p>
+	</div>
+</div>
+

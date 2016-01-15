@@ -1,2 +1,71 @@
-<h1>StaticPages#contact</h1>
+<div class="container " id="contact">
+      <div class="title">
+        <h1> Contact US</h1>
+      </div> <!-- end contact-header -->
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+          <div class="email row"> 
+            <h2><span class="glyphicon glyphicon glyphicon-envelope"></span> Email us</h2>
+            <p> For General questions and enquiries please email us at <a class="data" href="support@abc.com">support@abc.com</a></p>
+          </div><!-- end email -->
+          <div class="phone row">
+            <h2> <span class="glyphicon glyphicon-phone"></span> Call us</h2>
+            <p>Call our customer service at <span class="data" style="color:#339966"><b>800-123-4567.</b></p>
+          </div><!-- end phone -->
+          <div class="address row">
+            <h2> <span class="glyphicon glyphicon-map-marker"></span> Address </h2>
+            <p> You can also contact us through our mailing address,</p>
+            <div class="address1 data">
+              <p>123-456 Street Dr.<br/> Abcdef City YZ 00000</p>
+            </div> <!-- end address1 -->
+          </div> <!-- end address -->
+          <div class="social row">
+            <h2><span class="glyphicon glyphicon-globe"></span> Social Media</h2>
+            <p> Stay in touch with us on our social media and get the latest updates and announcements.</p>
+            <a href="https://plus.google.com/" alt="google+" target="_blank" title="Click here for our google+ page" rel="tooltip"><%= image_tag("google.png", class: "img-responsive my_image", width: "6%") %></a>
+            <a href="https://twitter.com" alt="twitter" target="_blank" title="Click here for our twitter page" rel="tooltip"><%= image_tag("twitter.png", class: "img-responsive my_image", width: "6%") %></a>
+            <a href="https://facebook.com" alt="facebook" target="_blank" title="Click here for our facebook page" rel="tooltip"><%= image_tag("facebook.jpg", class: "img-responsive my_image", width: "6%") %></a>
+            <a href="https://youtube.com" alt="youtube" target="_blank" title="Click here for our youtube page" rel="tooltip"><%= image_tag("youtube.png", class: "img-responsive my_image", width: "6%") %></a>
+          </div> <!-- end social -->
+        </div> <!-- end col -->
+        <div class="contact-form col-lg-6 col-md-6 col-sm-12 col-xs-12">
+          <h2 class="message"><span class="glyphicon glyphicon glyphicon-envelope"></span> Message us</h2>
+          <form method="post">
+            <div class="form-group">
+              <label for="name"> Name: </label>
+              <input class="form-control" id="name" placeholder="Your name" title="Enter your Name here" type="text">
+            </div><!-- end form-group -->
+            <p id="visible-name"></p>
+            <div class="form-group">
+              <label for="phone"> Phone Number: </label>
+              <input class="form-control" id="phone" placeholder="ex: 000-000-0000" title="Enter your phone number here" minlength="8" type="tel">
+            </div><!-- end form-group -->
+            <p id="visible-phone"></p>
+            <div class="form-group">
+              <label for="email"> Email:* </label>
+              <input class="form-control" id="email" required="required" placeholder="ex: abc@xyz.com" title="Enter your email address here" type="email">
+            </div><!-- end form-group -->
+            <p id="visible-email"></p>
+            <div class="form-group">
+              <label for="message"> Your message here:* </label>
+              <textarea class="message-box form-control" id="message" required="required" placeholder="Your message here" title="Enter your message here" style="resize:none" rows="5"></textarea>
+            </div><!-- end form-group -->
+            <p id="char-count"></p>
+            <p id="visible-comment"></p>
+            <p id="visible-enter-message"></p>
+            <div class="form-group">
+              <button type="submit" class="btn btn-primary" id="submit">SEND MESSAGE</button>
+            </div> <!-- end form-group -->
+          </form> <!-- end form -->
+        </div> <!-- end contact-form -->
+      </div><!-- end row -->
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+          <div id="map"></div>
+          <!-- <iframe width="100%" height="250" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJOwg_06VPwokRYv534QaPC8g&key=AIzaSyDv4OeD-bOc4HjaCUc0P-VUMeEid9UzU-A" allowfullscreen></iframe> -->
+        </div> <!-- end google api -->
+      </div>
+    </div><!-- end container -->
+<!-- <h1>StaticPages#contact</h1>
 <p>Find me in app/views/static_pages/contact.html.erb</p>
+ -->

@@ -4,6 +4,7 @@
 	  	<title>ButterCupCreations</title>
 	  		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 		  	<%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+		  	<link href="http://db.onlinewebfonts.com/c/0a00c04029f465a305f31054da5e0b07?family=cinnamon+cake" rel="stylesheet" type="text/css"/>
 		  	<%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
 		  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 		  	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -11,7 +12,7 @@
 	</head>
 	<body>
 		<nav class="navbar navbar-inverse navbar-fixed-top">
-			<a class="navbar-brand" href="#" rel="tooltip" title="butterCup Creations" data-placement="right">Buttercup Creations</a>
+			<a class="navbar-brand" href="#" rel="tooltip" title="butterCup Creations" data-placement="right">buttercup creations</a>
 			<div class="container-fluid">
 				<div class="navbar-header">
 				    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -31,10 +32,8 @@
 	        	</div> <!-- end navbar-collapse -->
 			</div><!-- end container fluid -->
 		</nav><!-- end nav -->
-		<div class="container">
-			<%= yield %>
-			<p>Welcome! The date and time is <%= Time.now %></p>
-		</div><!-- end container -->
+		<%= yield %>
+			<!-- end container -->
 		<footer class="ftr">
 		    <div class="content-rights row">
 		       	<p>&copy; ButterCup Creations 2016</p>
