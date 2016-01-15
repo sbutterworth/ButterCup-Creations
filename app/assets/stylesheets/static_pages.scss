@@ -1,12 +1,19 @@
 // Place all the styles related to the static_pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-//@import url(http://db.onlinewebfonts.com/c/0a00c04029f465a305f31054da5e0b07?family=cinnamon+cake);
+@import url(http://db.onlinewebfonts.com/c/0a00c04029f465a305f31054da5e0b07?family=cinnamon+cake);
 body{
 	background-image: url(bg7.jpg);
 	background-attachment: fixed;
 	background-size: cover;
 	//margin: 0 15%;
+}
+@font-face {font-family: "cinnamon cake";
+    src: url("http://db.onlinewebfonts.com/t/0a00c04029f465a305f31054da5e0b07.eot");
+    src: url("http://db.onlinewebfonts.com/t/0a00c04029f465a305f31054da5e0b07.eot?#iefix") format("embedded-opentype"),
+    url("http://db.onlinewebfonts.com/t/0a00c04029f465a305f31054da5e0b07.woff") format("woff"),
+    url("http://db.onlinewebfonts.com/t/0a00c04029f465a305f31054da5e0b07.ttf") format("truetype"),
+    url("http://db.onlinewebfonts.com/t/0a00c04029f465a305f31054da5e0b07.svg#cinnamon cake") format("svg");
 }
 .container{
 	// background-image: url(bg7.jpg);
@@ -24,6 +31,7 @@ body{
 	font-size: 2.5em;
 	font-family: cinnamon cake, Zapf Chancery, cursive, helvetica, sans-serif;
 	font-weight: bold;
+
 }
 .container-fluid{
 	margin: 0;
