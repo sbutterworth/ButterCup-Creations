@@ -3,7 +3,7 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 @import url(http://db.onlinewebfonts.com/c/0a00c04029f465a305f31054da5e0b07?family=cinnamon+cake);
 body{
-	background-image: url(bg7.jpg);
+	background-image: url(bg11.jpg);
 	background-attachment: fixed;
 	background-size: cover;
 	//margin: 0 15%;
@@ -35,6 +35,9 @@ body{
 }
 .container-fluid{
 	margin: 0;
+}
+.index{
+	padding-bottom: 5%;
 }
 h2{
  color: #cc6699;
@@ -73,21 +76,21 @@ h2{
 }
 .navbar-inverse .navbar-nav>li>a {
 	font-size: 1.6em;
-    color: #ffb3b3;
+    color: #df9fbf;
     font-weight: 500;
 } 
 // .image-container{
 // 	margin: 5% 20%;
 // }
 .container h1{
-	color: salmon;//#4985D6;
+	color: #666699;//#4985D6;
 }
 //contact
 #contact h1{
 	font-size: 3em;
 }
 #contact .data, label{
-	color: #339966;
+	color: #5c5c8a;
 	font-size: 1.3em;
 }
 .email a{
@@ -115,7 +118,7 @@ form{
 	padding-top: 2%;
 }
 .glyphicon:hover{
-	color: #FFCC00;
+	color: #ffe066;
 }
 #map {
   height: 300px;
@@ -128,7 +131,7 @@ footer{
    	width: 100%;
 }
 .ftr{
-	background-color: salmon;
+	background-color: #cc6699;
 	text-align: center;
 	opacity: 0.7;
 }
